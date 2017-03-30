@@ -12,7 +12,8 @@ namespace webappWithCsharp7lib.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            var v = ClassLibrary1.Class1.returnStr();
+            return new string[] { v, "value2" };
         }
 
         // GET api/values/5

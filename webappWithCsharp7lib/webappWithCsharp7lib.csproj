@@ -254,6 +254,12 @@
   <ItemGroup>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+      <Project>{39f04f18-e53b-4540-9e2f-6464c1d8eb98}</Project>
+      <Name>ClassLibrary1</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
